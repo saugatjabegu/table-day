@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Table Project</title>
+
+    <style>
+        /* General styling */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #eaf2ff, #f5f7fb);
+            color: #333;
+            min-height: 100vh;
+        }
+
+        /* Navigation bar */
+        nav {
+            background-color: #173b67;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            color: white;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #f1c40f;
+        }
+
+        /* Main section */
+        .container {
+            max-width: 900px;
+            margin: 100px auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .container h1 {
+            color: #173b67;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .container p {
+            font-size: 18px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        /* Buttons */
+        .buttons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #1769aa;
+            color: white;
+            padding: 14px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #104c80;
+            transform: translateY(-3px);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #173b67;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 80px;
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .container {
+                margin: 60px auto;
+            }
+
+            .container h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <nav>
+        <h2>My Table Project</h2>
+
+        <div>
+            <a href="index.html">Home</a>
+            <a href="tabletask.html">Task 1</a>
+            <a href="tabletask2.html">Task 2</a>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container">
+
+        <h1>Welcome to My Table Project</h1>
+
+        <p>
+            Welcome to my HTML practice website.
+            Here you can explore my different table
+            design tasks created using HTML and CSS.
+        </p>
+
+        <!-- Navigation buttons -->
+        <div class="buttons">
+
+            <a href="tabletask.html" class="btn">
+                View Table Task 1
+            </a>
+
+            <a href="tabletask2.html" class="btn">
+                View Table Task 2
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Table Project. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
